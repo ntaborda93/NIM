@@ -1,213 +1,41 @@
 *{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
-    text-align: center;
-    font-family: sans-serif;
+    background-color: black;
 }
 
-.head {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 63px;
-    background: #171717;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
+.section-padding {
+    padding: 70px 0;
 }
 
-.navbar ul{
-    display: flex;
-    margin-right: 10px;
-    list-style: none;
+.carousel-caption {
+    bottom: 200px;
+    z-index: 2;
 }
 
-.logo {
-    margin-left: 30px;
-}
-
-a img{
-    width: 65px;
-    height: 50px;
-}
-
-.navbar a {
-    padding: 20px 20px;
-    color: #fff;
-    text-decoration: none;
+.carousel-caption h5 {
+    font-size: 45px;
     text-transform: uppercase;
-    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 25px;
 }
 
-.navbar a:hover {
-    background: #3f3f3f;
-}
-
-.header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.header {
-    height: 60vh !important;
-    background: url(../Images/DJI_0137.JPG) no-repeat center;
-    background-size: cover;
-}
-
-.title_inicio {
-    margin-bottom: 40px;
-    font-size: 60px;
-    font-weight: 600;
-    color: white;
-}
-
-.title {
-    margin-bottom: 40px;
-    font-size: 60px;
-    font-weight: 600;
-    color: black;
-}
-
-p {
-    margin-bottom: 40px;
-    font-size: 18px;
-    color: black;
-    padding: 0 100px;
-}
-
-.intro{
-    margin-bottom: 40px;
-    font-size: 18px;
-    color: white;
-    padding: 0 100px;
-}
-
-.btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 40px;
-    border: 2px solid #171717;
-    color: #fff;
-    text-decoration: none;
-    background: #171717;
-}
-
-.btn:hover {
-    background: none;
-    
-}
-
-.btn-home {
-    display: flex;
-}
-
-.btn-home a {
-    margin: 0 10px;
-}
-
-.content {
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.equipo {
-    padding: 30px;
-    background: white;
-}
-
-
-.drone{
-    width: 50%;
-    padding: 5%;
-}
-
-.insta360{
-    width: 25%;
-    padding: 5%;
-}
-
-.iphone{
-    width: 25%;
-    padding: 5%;
-}
-
-.box-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    text-align: center;
-
-}
-
-.box-container .box{
-    height: 11rem;
-    width: 17rem;
-    background: #101010;
-    text-align: center;
-    border-radius: 1rem;
-    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
-    margin: 2rem;   
-}
-
-
-.box-container .box p {
-    padding: 0 15px;
-    font-size: 16px;
-}
-
-.about {
-    background:white;
-}
-
-footer{
-    background: #3f3f3f;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-i{
-    width: 100px;
-    color: white;
-}
-
-.page_nosotros img{
-
-    width: 100%;
-    height: 100%;
-}
-
-video{
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
-
-@media screen and (max-width: 768px) {
-
-    .title {
-        margin-bottom: 0;
-        font-size: 40px;
+@media (max-width: 767px){
+    .navbar-nav{
+        text-align: center;
     }
 
-    .content {
-        height: 100vh;
+    .about-text{
+        padding-top: 50px;
     }
 
-    .navbar ul {
-        display: none;
+    .card{
+        margin-top: 30px;
+    }
+
+    .section-padding{
+        padding: 50px 0;
     }
 }
